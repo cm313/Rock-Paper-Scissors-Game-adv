@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Rock Paper Scissor
+        </title>
+        <link rel="stylesheet" href="12-DOM-Style-func-Rock-paper-scissors.css">
+    </head>
+    <body>
+        <p class="title">Rock Paper Scissor</p>
+          <!--ROCK-->
+        <button class = "button-style" onclick=" 
+            //ROCK Function calling
+            result('Rock');
+        "><img class = "icon" src="images/rock-emoji.png" alt = "Rock"></button>
+          <!--PAPER-->
+        <button class = "button-style" onclick="  
+        //PAPER Function calling
+           result('Paper');
+        "><img class = "icon" src="images/paper-emoji.png" alt = "Paper"></button>
+        <!--SCISSOR-->
+        <button class = "button-style" onclick="
+            //SCISSOR Function calling
+             result('Scissors');
+        "><img class ="icon" src="images/scissors-emoji.png" alt = "Scissors"></button>
+
+        <p class = "js-result result"></p>
+        <p class = "js-moves moves"></p>
+        <p class = "js-score score"></p>
+
+
+        <button class = "reset-score-button js-reset-score-button"> Reset Score</button>
+        <button class="auto-play-button js-auto-play-button" >Auto Play</button>
+        <p class="js-confirmation"></p>
+        <script src="12-DOM-Style-func-Rock-paper-scissors.js">
+        </script>
+    </body>
+</html>
