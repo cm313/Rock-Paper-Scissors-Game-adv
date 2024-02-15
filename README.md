@@ -1,4 +1,4 @@
-Rock-Paper-Scissors Game,
+
 Welcome to my Rock-Paper-Scissors game project! 🎮
 
 Overview:
