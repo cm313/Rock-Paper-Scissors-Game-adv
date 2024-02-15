@@ -19,5 +19,5 @@ HTML
 CSS
 JavaScript
 
-Acknowledgments
+Acknowledgments:
 A big shoutout to the open-source community and tutorials that inspired and guided me throughout this project.
